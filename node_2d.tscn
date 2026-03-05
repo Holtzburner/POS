@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dhp1qj687fsu4"]
+
+[ext_resource type="Texture2D" uid="uid://mq50fbn87suq" path="res://11234567889з.png" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://b3iw60vojhlyd" path="res://098765432.webp" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=641281679]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=2014352485]
+position = Vector2(2, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=2110317122]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D/CollisionShape2D" unique_id=1793146512]
+position = Vector2(410.5, 242.87502)
+scale = Vector2(0.7148148, 0.7027778)
+texture = ExtResource("1_0e48y")
+
+[node name="CharacterBody2D2" type="CharacterBody2D" parent="." unique_id=782365496]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D2" unique_id=466797011]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D2/CollisionShape2D" unique_id=2065115310]
+position = Vector2(578.625, 512)
+scale = Vector2(0.31229576, 0.10620915)
+texture = ExtResource("2_epypp")
